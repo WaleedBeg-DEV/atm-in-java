@@ -1,4 +1,4 @@
-# atm-in-java
+# ATM-IN-JAVA
 Java console-based ATM application simulating core banking operations. Users can securely deposit money, withdraw funds, and check their account balance. Simple, interactive, and designed using object-oriented programming principles.
 # ATM in Java
 
@@ -17,6 +17,4 @@ This project is ideal for beginners who want to practice Java programming in a r
 - **Object-Oriented Design:** Demonstrates encapsulation and method usage in Java.  
 - **Secure Transactions:** Withdrawals are limited to the available balance.  
 - **Interactive Learning:** Excellent hands-on practice for beginner Java developers.  
-
-## Project Structure
 
