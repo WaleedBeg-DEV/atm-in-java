@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ATM Frontend</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-100 flex items-center justify-center min-h-screen">
+
+  <div class="bg-white p-6 rounded-xl shadow-lg w-96">
+    <h2 class="text-2xl font-bold text-center mb-4">ATM Machine 24*7 Services</h2>
+
+    <p id="balance" class="text-center text-green-600 mb-4">
+      Balance: ₹10000
+    </p>
+
+    <input id="amount" type="number" placeholder="Enter Amount"
+      class="w-full p-2 border rounded mb-3">
+
+    <button onclick="deposit()"
+      class="w-full bg-blue-600 text-white py-2 rounded mb-2">
+      Deposit
+    </button>
+
+    <button onclick="withdraw()"
+      class="w-full bg-orange-500 text-white py-2 rounded mb-2">
+      Withdraw
+    </button>
+
+    <button onclick="checkBalance()"
+      class="w-full bg-green-600 text-white py-2 rounded">
+      Check Balance
+    </button>
+  </div>
+
+  <script>
+    let balance = 10000;
+
+    function deposit() {
+      let amt = Number(document.getElementById("amount").value);
+      if (amt > 0) {
+        balance += amt;
+        alert("Deposit Successful");
+      }
+    }
+
+    function withdraw() {
+      let amt = Number(document.getElementById("amount").value);
+      if (amt <= balance) {
+        balance -= amt;
+        alert("Collect Cash");
+      } else {
+        alert("Insufficient Balance");
+      }
+    }
+
+    function checkBalance() {
+      document.getElementById("balance").innerText =
+        "Balance: ₹" + balance;
+    }
+  </script>
+
+</body>
+</html>
