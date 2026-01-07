@@ -1,0 +1,59 @@
+# ===== Java compiled files =====
+*.class
+*.jar
+*.war
+*.ear
+
+# ===== Java temporary files =====
+*.log
+*.tmp
+
+# ===== IDE / Editor files =====
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===== Node / Frontend =====
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# ===== OS generated files =====
+.DS_Store
+Thumbs.db
+
+# ===== Optional: output files =====
+output.css
+# ===== Java compiled files =====
+*.class
+*.jar
+*.war
+*.ear
+
+# ===== Java temporary files =====
+*.log
+*.tmp
+
+# ===== IDE / Editor files =====
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===== Node / Frontend =====
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# ===== OS generated files =====
+.DS_Store
+Thumbs.db
+
+# ===== Optional: output files =====
