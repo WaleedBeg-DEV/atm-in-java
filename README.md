@@ -1,3 +1,16 @@
+<p align="center">
+  <img src="profile.jpg" width="300" />
+  
+</p>
+
+<h2 align="center">ATM Management System</h2>
+<p align="center">Java Console Application</p>
+
+<p align="center">
+  Developed by <b>Waleed Beg</b>
+</p>
+<img width="598" height="562" alt="image" src="https://github.com/user-attachments/assets/84630d96-0c9d-4aff-bf19-0a10b2a1b7f2" />
+
 # ATM-IN-JAVA
 Java console-based ATM application simulating core banking operations. Users can securely deposit money, withdraw funds, and check their account balance. Simple, interactive, and designed using object-oriented programming principles.
 # ATM in Java
